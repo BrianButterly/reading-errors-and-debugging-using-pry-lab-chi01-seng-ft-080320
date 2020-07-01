@@ -11,14 +11,13 @@ def prompt_user
 end
 
 def selection(num)
-  num = 2
   if num = 1
     binding.pry
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
     binding.pry
      "HAM HAM HAM IN MY TUMMY"
-
+num = 2
   end
 end
 
